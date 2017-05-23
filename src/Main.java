@@ -16,5 +16,9 @@ public class Main {
         linkedList.pop();
         linkedList.pop();
         System.out.println("Popped!" + linkedList + "/" + linkedList.getSize());
+
+        linkedList.removeAll();
+        System.out.println("Popped all" + linkedList + "/" + linkedList.getSize());
+
     }
 }

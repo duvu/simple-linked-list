@@ -100,7 +100,7 @@ public class LinkedList {
     public String toString() {
         StringBuffer sb = new StringBuffer();
         if (head == null) {
-
+            sb.append("[]");
         } else {
             sb.append(head);
             Node c_node = head.getNext();
